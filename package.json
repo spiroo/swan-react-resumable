@@ -1,0 +1,53 @@
+{
+  "name": "swan-react-resumable",
+  "version": "1.0.1",
+  "description": "Upload component in React for using with ResumableJS.",
+  "main": "lib/index.js",
+  "repository": "",
+  "author": "HHT-DK",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --progress",
+    "watch": "webpack --watch --progress"
+  },
+  "dependencies": {
+    "antd": "^3.5.2",
+    "resumablejs": "^1.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.1.2",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.14.0",
+    "eslint-config-airbnb": "^16.0.0",
+    "eslint-plugin-babel": "^4.0.0",
+    "eslint-plugin-compat": "^2.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-markdown": "^1.0.0-beta.6",
+    "eslint-plugin-react": "^7.0.1",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.1.1",
+    "style-loader": "^0.21.0",
+    "stylelint": "^8.4.0",
+    "stylelint-config-standard": "^18.0.0",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3",
+    "webpack-node-externals": "^1.6.0"
+  },
+  "keywords": [
+    "react",
+    "resumable",
+    "antd",
+    "upload"
+  ]
+}
